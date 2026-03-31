@@ -1,4 +1,4 @@
-#Projet d'analyse et d'application de méthodes de Machine Learning
+**Projet d'analyse et d'application de méthodes de Machine Learning**
 
 Ce projet propose une analyse détaillée du dataset Breast Cancer, incluant :
 
