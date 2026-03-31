@@ -1,5 +1,14 @@
-numpy
-pandas
-matplotlib
-seaborn
+#ML
 scikit-learn
+numpy
+matplotlib
+joblib
+pandas
+
+#API and deployment
+fastapi
+uvicorn
+
+#pour visualisation
+seaborn
+python-dotenv

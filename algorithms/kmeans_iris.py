@@ -8,7 +8,7 @@ import numpy as np
 def run_kmeans():
     iris = datasets.load_iris()
     X = pd.DataFrame(iris.data, columns=iris.feature_names)
-
+    print(X.shape)
     kmeans = KMeans(n_clusters=3, random_state=0)
     kmeans.fit(X)
     labels = kmeans.labels_
