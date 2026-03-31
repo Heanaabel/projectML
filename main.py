@@ -9,19 +9,15 @@ from algorithms.knn_iris import run_knn, plot_knn
 from algorithms.bayes_tennis import run_bayes
 import time
 
-def main():
-    start = time.time()
-    print("\n===== BREAST CANCER CLASSIFICATION =====")
+if __name__ == "__main__":
+    start_total = time.time()
+
+    # Lancement de l'analyse ML
     run_classification_breast_cancer()
 
-    #print("\n===== REGRESSION CALIFORNIA =====")
-    #run_regression_california()
-
-    end = time.time()
-    print("Temps d'exécution:", end - start, "secondes")
-
-if __name__ == "__main__":
-    main()
+    end_total = time.time()
+    print("\n===== Temps d'exécution total du module =====")
+    print(f"{end_total - start_total:.2f} secondes")
 
 
 
